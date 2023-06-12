@@ -1,0 +1,89 @@
+*{
+    padding:0 ;
+    margin:0 ;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+.web{
+    display:flex;
+    position: relative;
+}
+
+.web .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #172f80;
+}
+
+#title{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.navbox{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+}
+
+.navlink{
+    color: #bdb8d7;
+    display: block;
+}
+
+.web .sidebar ul li a{
+    font-size: 30px;
+
+}
+.web .sidebar ul li:hover {
+    background-color: #2654b6;
+    color: white;
+}
+
+.web .sidebar .bottombar{
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 15%;
+    background: #172f80;
+
+}
+.setting{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+}
+
+span{
+    font-size: 25px;
+    color: #bdb8d7;
+}
+
+h2{
+    text-align: center;
+}
+
+.web .maincontent{
+    width: 100%;
+    margin-left: 200px;
+
+}
+
+.web .maincontent .title{
+    padding: 20px;
+    background-color: #091b57;
+    color: #bdb8d7;
+    border-bottom: 5px solid rgba(0,0,0,0.05);
+}
+
+.fortext{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
